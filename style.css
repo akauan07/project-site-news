@@ -1,0 +1,233 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background: #FFF url(./img/fundo.png) repeat-x;
+}
+
+#container {
+        width: 750px;
+        margin: 0 auto;
+}
+
+#top {
+        height: 180px;
+        background: url(./img/detalhe-topo.png) no-repeat right top;
+        padding-top: 25px;
+}
+
+.logo {
+        width: 152px;
+        height: 66px;
+        background: url(./img/logo.png) no-repeat center;
+        text-indent: -3000px;
+}
+
+/* Barra de navegação */
+
+ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+
+#top ul {
+        border-radius: 20px;
+        margin-top: 30px;
+        background: #B10333;
+        float: left;
+}
+
+#top ul li {
+        float: left;
+}
+
+#top ul a {
+        border-radius: 20px;
+        font-size: 0.9em;
+        display: block;
+        padding: 0.5em 1.5em;
+        line-height: 2.1em;
+        text-decoration: none;
+        color: #FFF;
+        background: url(./img/divisor.png) no-repeat left;
+}
+
+#top ul .one a {
+        background: none;
+}
+
+#top ul a:hover {
+        color: #69001D;
+
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.fotos #navegacao a#fotos {
+        color: #FFF;
+        background: #DE003E;
+        cursor: text;
+}
+
+#content {
+        background: #F5F5F5;
+        margin-top: 60px;
+}
+
+#side {
+        float: left;
+        width: 180px;
+        margin: 0 0 20px -750px;
+}
+
+#one-column {
+        float: left;
+        width: 750px;
+        margin-bottom: 20px;
+}
+
+#two-column {
+        float: left;
+        width: 555px;
+        margin: 0 0 20px 195px;
+}
+
+#three-column {
+        float: left;
+        width: 270px;
+        margin: 0 0 20px 195px;
+}
+
+#secundary {
+        float: left;
+        width: 270px;
+        margin: 0 0 20px 15px;
+
+}
+
+img {
+        border: 2px solid #DFDFDF;
+}
+
+.box {
+        background: #F3F3F3 url(./img/fundo-caixa.png);
+        margin: 10px 0px;
+        padding: 5px;
+}
+
+h2 {
+        font-size: 1em;
+        background: #294C71;
+        color: #FFF;
+        padding: 5px;
+}
+
+h3 {
+        text-transform: uppercase;
+        display: inline;
+        font-size: 0.8em;
+        padding: 3px;
+}
+
+.notepad h3 {
+        background: #B10333;
+        color: #FFF;
+}
+
+.interview h3 {
+        background: #DE003E;
+
+}
+
+/* Formatando lista de notícias */
+
+#list-news li {
+        padding: 2px;
+        border-bottom: 1px solid #CCC;
+        height: 65px;
+}
+
+#list-news li:hover {
+        background: #EEE;
+        cursor: pointer;
+}
+
+#list-news li a {
+        text-decoration: none;
+}
+
+#list-news li a h3 {
+        font-size: 0.8em;
+        padding: 0px;
+
+}
+
+#list-news li a p {
+        font-size: 0.7em;
+}
+
+#list-news li a img {
+        width: 80px;
+        float: left;
+        margin: 5px;
+}
+
+.box-content {
+        background: #FFF;
+        padding: 5px;
+        margin-top: 5px;
+}
+
+#side ul a {
+        font-size: 0.9em;
+        padding: 3px;
+        display: block;
+        line-height: 30px;
+        color: #000;
+        text-decoration: none;
+        border-bottom: 1px solid #F3F3F3;
+}
+
+#side ul a:hover {
+        background: #F9F9F9 url(./img/marcador.png) no-repeat left center;
+        padding-left: 20px;
+        color: #A1A1A1;
+}
+
+label {
+        display: block;
+        cursor: pointer;
+}
+
+input {
+        width: 125px;
+        padding: 5px;
+        font-size: 0.9em;
+        background-color: #FFF;
+}
+
+input.submit {
+        width: 80px;
+        color: #FFF;
+        background-color: #B10333;
+        border: 2px solid #870529;
+}
+
+#container-footer {
+        text-align: center;
+        background: #294C71;
+        padding: 20px;
+}
+
+#footer {
+        width: 750px;
+        margin: 0 auto;
+        color: #FFF;
+}
